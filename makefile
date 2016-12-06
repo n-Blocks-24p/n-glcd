@@ -1,4 +1,4 @@
-PRJ=N-WIFI-1
+PRJ=N-GLCD
 REV=V3
 NEWPRJ=TEST_PROJECT
 DVCS=HG
@@ -21,12 +21,7 @@ ASM_FILES =\
 .\3D.pdf \
 .\bom\PartsList.xlsx
 
-FLEX_FILES =\
-.\deliverables\ODB.zip \
-.\bom\PurchaseList.xlsx \
-.\deliverables\review.zip \
-.\deliverables\asm.zip \
-.\gerber\gerberFiles.zip
+
 
 
 SCH := $(wildcard *.PcbDoc)
@@ -41,7 +36,7 @@ PURCHASE_FILES =.\bom\PurchaseList.xlsx
 REQUIREMENTS_FILES = .\requirements\requirements_text.txt
 
 
-all:  gerber.txt asm.txt purchase.txt  requirements.txt review.txt deliverables.txt integrity flex.txt
+all:  gerber.txt asm.txt purchase.txt  requirements.txt review.txt deliverables.txt integrity 
 
 review.txt: $(REVIEW_FILES)
 	review.cmd
@@ -73,8 +68,7 @@ integrity:
 cleanDeep:
 	cleanDeep.cmd
 
-flex.txt: $(FLEX_FILES)
-	flex.cmd $(PRJ) $(REV)	
+
 
 
 

@@ -1,0 +1,21 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [N-GLCD.PcbDoc]
+   Generated File[N-GLCD.GTL]
+   Generated File[N-GLCD.GBL]
+   Generated File[N-GLCD.GTO]
+   Generated File[N-GLCD.GTP]
+   Generated File[N-GLCD.GTS]
+   Generated File[N-GLCD.GBS]
+   Generated File[N-GLCD.GBP]
+   Generated File[N-GLCD.GBO]
+   Generated File[N-GLCD.GM3]
+   Generated File[N-GLCD.RUL]
+   Generated File[N-GLCD.EXTREP]
+   Generated File[N-GLCD.REP]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 16:32:17 On 06/12/2016
