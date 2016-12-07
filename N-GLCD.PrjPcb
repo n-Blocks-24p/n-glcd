@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for N-GLCD
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -311,112 +311,120 @@ GenerateClassCluster=0
 DocumentUniqueId=RCOSPSVB
 
 [GeneratedDocument1]
-DocumentPath=.\ODB\odb\steps\pcb\layers\comp_+_bot\components
+DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=.\ODB\odb\steps\pcb\layers\comp_+_top\components
+DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=.\ODB\odb\steps\pcb\eda\data
+DocumentPath=ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=.\ODB\odb\steps\pcb\layers\bottom\features
+DocumentPath=ODB\odb\steps\pcb\layers\bottom\features
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=.\ODB\odb\steps\pcb\layers\bottomoverlay\features
+DocumentPath=ODB\odb\steps\pcb\layers\bottomoverlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=.\ODB\odb\steps\pcb\layers\bottompaste\features
+DocumentPath=ODB\odb\steps\pcb\layers\bottompaste\features
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=.\ODB\odb\steps\pcb\layers\bottomsolder\features
+DocumentPath=ODB\odb\steps\pcb\layers\bottomsolder\features
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=.\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\features
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=.\ODB\odb\steps\pcb\layers\comp_+_top\features
+DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\features
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=.\ODB\odb\steps\pcb\layers\drill\features
+DocumentPath=ODB\odb\steps\pcb\layers\drill\features
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=.\ODB\odb\steps\pcb\layers\keepout\features
+DocumentPath=ODB\odb\steps\pcb\layers\keepout\features
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical1\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical1\features
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical2\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical2\features
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical3\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical3\features
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical13\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical13\features
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical15\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical15\features
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=.\ODB\odb\steps\pcb\layers\mechanical16\features
+DocumentPath=ODB\odb\steps\pcb\layers\mechanical16\features
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=.\ODB\odb\steps\pcb\layers\top\features
+DocumentPath=ODB\odb\steps\pcb\layers\top\features
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=.\ODB\odb\steps\pcb\layers\topoverlay\features
+DocumentPath=ODB\odb\steps\pcb\layers\topoverlay\features
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=.\ODB\odb\steps\pcb\layers\toppaste\features
+DocumentPath=ODB\odb\steps\pcb\layers\toppaste\features
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=.\ODB\odb\steps\pcb\layers\topsolder\features
+DocumentPath=ODB\odb\steps\pcb\layers\topsolder\features
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=.\ODB\odb\matrix\matrix
+DocumentPath=ODB\odb\matrix\matrix
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=.\ODB\N-GLCD.REP
+DocumentPath=ODB\N-GLCD.REP
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=.\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DocumentPath=ODB\odb\steps\pcb\netlists\cadnet\netlist
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=.\ODB\odb\steps\pcb\profile
+DocumentPath=ODB\odb\steps\pcb\profile
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=.\ODB\odb\steps\pcb\stephdr
+DocumentPath=ODB\odb\steps\pcb\stephdr
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=.\ODB\odb\steps\pcb\layers\drill\tools
+DocumentPath=ODB\odb\steps\pcb\layers\drill\tools
 DItemRevisionGUID=
+
+[Parameter1]
+Name=OrderQty
+Value=10
+
+[Parameter2]
+Name=prj
+Value=N-GLCD
 
 [Configuration1]
 Name=Default Configuration
@@ -428,7 +436,7 @@ Variant=[No Variations]
 OutputJobsCount=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for N-GLCD
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
