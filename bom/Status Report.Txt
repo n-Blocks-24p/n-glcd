@@ -1,6 +1,6 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 11:30:57 On 07/12/2016
+Start Output Generation At 12:13:42 On 09/12/2016
 
 Output: PurchaseList.xlsx
 Type  : BOM
@@ -11,4 +11,4 @@ From  : Variant [[No Variations]] of Project [N-GLCD.PrjPcb]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 11:31:39 On 07/12/2016
+Finished Output Generation At 12:14:31 On 09/12/2016
